@@ -234,4 +234,102 @@ header {
   opacity: 0.07;
   width: 195px;
   height: 188px;
+}
+
+.posts {
+  padding-top: 48px;
+  padding-bottom: 40px;
+}
+
+.news {
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 1.1;
+  font-family: "Libre Baskerville";
+  color: #343D33;
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.view-all {
+  position: relative;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.15em;
+  color: #475F45;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 36px;
+}
+.view-all::before {
+  position: absolute;
+  content: "";
+  top: 50%;
+  left: 10%;
+  width: 48px;
+  border: 1px solid #475F45;
+  opacity: 0.4;
+}
+
+.posts__icon {
+  position: absolute;
+  top: 50%;
+  right: 18%;
+  width: 24px;
+  height: 24px;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  opacity: 0.7;
+}
+
+.articles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 24px;
+}
+
+.post__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 20px;
+}
+
+.posts__title {
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 1.1;
+  font-family: "Libre Baskerville";
+  color: #475F45;
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 12px;
+}
+
+.posts__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #414840;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+.posts__date {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  font-style: italic;
+  color: #414840;
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */
