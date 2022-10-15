@@ -1,1 +1,237 @@
-/*# sourceMappingURL=main.css.map */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+h1, h2, h3, h4, h5, p {
+  margin: 0;
+}
+
+body {
+  background-color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+}
+
+button {
+  border: none;
+}
+
+.container {
+  padding-left: 18px;
+  padding-right: 18px;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 360px;
+}
+
+header {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.logo__header {
+  margin-right: 11px;
+}
+
+.logo-icon__header {
+  fill: #475F45;
+}
+
+.nav__name {
+  display: block;
+}
+
+.nav__title {
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 1.16;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #475F45;
+}
+
+.nav__item {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.25;
+  letter-spacing: 0.01em;
+  font-style: italic;
+  color: #333333;
+}
+
+.btn-mobile__menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: auto;
+  background-color: transparent;
+  padding: 0;
+}
+
+.menu-open {
+  fill: currentColor;
+}
+
+.hero__title {
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 1.1;
+  font-family: "Libre Baskerville";
+  color: #343D33;
+  text-align: center;
+  margin-bottom: 16px;
+  text-transform: capitalize;
+}
+
+.hero__text {
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 1.5;
+  text-align: center;
+  color: #414840;
+  margin-bottom: 24px;
+}
+
+.hero__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 10px;
+  margin-bottom: 56px;
+}
+
+.btn__buy {
+  padding: 15px 30px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.15em;
+  background-color: #475F45;
+  color: #fff;
+  text-transform: uppercase;
+  min-width: 168px;
+  white-space: nowrap;
+}
+
+.btn__learn {
+  padding: 15px 30px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.15em;
+  background-color: #fff;
+  color: #475F45;
+  text-transform: uppercase;
+  white-space: nowrap;
+  border: 2px solid #475F45;
+}
+
+.hero__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 64px;
+}
+
+.features {
+  position: relative;
+  background-color: #343D33;
+  padding-top: 56px;
+  padding-bottom: 64px;
+}
+
+.features__img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 16px;
+  margin-bottom: 40px;
+}
+
+.features__title {
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 1.1;
+  font-family: "Libre Baskerville";
+  color: #fff;
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 24px;
+}
+
+.features__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 24px;
+}
+
+.btn__features {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.features__btn {
+  padding: 15px 30px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.15em;
+  background-color: #343D33;
+  color: #fff;
+  text-transform: uppercase;
+  min-width: 168px;
+  white-space: nowrap;
+  border: 2px solid #fff;
+}
+
+.features__icon {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  opacity: 0.07;
+  width: 195px;
+  height: 188px;
+}/*# sourceMappingURL=main.css.map */

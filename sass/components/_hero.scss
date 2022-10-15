@@ -1,0 +1,51 @@
+// For mobile
+.hero__title {
+    @include font (400,34px,1.1,null);
+    font-family: 'Libre Baskerville';
+    color: $header-text;
+    text-align: center;
+    margin-bottom: 16px;
+    text-transform: capitalize
+}
+
+.hero__text {
+    @include font (300, 20px, 1.5, null);
+    text-align: center;
+    color: $body-copy;
+    margin-bottom: 24px;
+}
+
+.hero__btn {
+    display:flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 56px;
+}
+
+.btn__buy {
+    // margin-right: 8px;
+    padding: 15px 30px;
+    @include font (700,14px,1.14,0.15em);
+    background-color: $primary;
+    color:$light;
+    text-transform: uppercase;
+    min-width: 168px;
+    white-space: nowrap;
+
+}
+
+.btn__learn {
+    padding: 15px 30px;
+    @include font (700, 14px, 1.14, 0.15em);
+    background-color: $light;
+    color: $primary;
+    text-transform: uppercase;
+    white-space: nowrap;
+    border: 2px solid $primary;
+}
+
+.hero__img {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 64px;
+}

@@ -1,0 +1,41 @@
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo__header {
+    margin-right: 11px;
+}
+
+.logo-icon__header {
+    fill: $primary;
+}
+
+.nav__name {
+    display: block;
+}
+
+.nav__title {
+    @include font (500,19px,1.16,0.1em);
+    text-transform: uppercase;
+    color: $primary;
+}
+
+.nav__item {
+    @include font (400,12px,1.25,0.01em);
+    font-style: italic;
+    color: $secondary;
+}
+
+// Mobile button menu-open
+.btn-mobile__menu {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    background-color: transparent;
+    padding: 0;
+}
+.menu-open {
+    fill:currentColor;
+}
