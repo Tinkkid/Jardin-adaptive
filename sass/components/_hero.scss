@@ -26,10 +26,15 @@
     text-align: center;
     color: $body-copy;
     margin-bottom: 24px;
+
+    @include tablet {
+        @include font (300, 22px, 1.5, null);
+        text-transform: capitalize;
+    }
 }
 
 .hero__btn {
-    display:inline-flex;
+    display:flex;
     justify-content: center;
     gap: 10px;
     margin-left: auto;
@@ -38,8 +43,9 @@
 }
 
 .btn__buy {
-    // margin-right: 8px;
-    display: flex;
+    margin-left: auto;
+    margin-right: 10px;
+    display: block;
     padding: 15px 30px;
     @include font (700,14px,1.14,0.15em);
     background-color: $primary;
@@ -51,7 +57,8 @@
 }
 
 .btn__learn {
-    display: inline-flex;
+    margin-right:auto;
+    display: block;
     padding: 15px 30px;
     @include font (700, 14px, 1.14, 0.15em);
     background-color: $light;

@@ -4,6 +4,13 @@
     background-color: $header-text;
     padding-top: 56px;
     padding-bottom: 64px;
+
+    @include tablet {
+    padding-left: 105px;
+    padding-right: 105px;
+    padding-top: 96px;
+    padding-bottom: 88px;
+    }
 }
 
 .features__img {
@@ -14,6 +21,11 @@
     margin-bottom: 40px;
     margin-left: auto;
     margin-right: auto;
+
+    @include tablet {
+    gap: 40px;
+    margin-bottom: 60px;
+    }
 }
 
 .features__title {
@@ -23,6 +35,12 @@
     text-align: center;
     text-transform: capitalize;
     margin-bottom: 24px;
+
+    @include tablet {
+    @include font (400, 45px, 1.10, null);
+    text-align: start;
+    margin-bottom: 32px;
+    }
 }
 
 .features__text {
@@ -30,11 +48,23 @@
     text-align: center;
     color: $light;
     margin-bottom: 24px;
+    max-width: 400px;
+
+    @include tablet {
+    @include font (400, 20px, 1.10, null);
+    text-align: start;
+    margin-bottom: 32px;
+    max-width: 400px;
+    }
 }
 
 .btn__features {
     display: flex;
     justify-content: center;
+
+    @include tablet {
+        justify-content: start;
+    }
 }
 
 .features__btn {
@@ -55,4 +85,9 @@
     opacity: 0.07;
     width: 195px;
     height:188px;
+
+    @include tablet {
+    width: 342px;
+    height: 357px;
+    }
 }
