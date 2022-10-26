@@ -47,7 +47,7 @@ a {
     max-width: 768px;
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1400px) {
   .container {
     max-width: 1400px;
     padding-left: 100px;
@@ -78,7 +78,7 @@ header {
             justify-content: space-between;
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1400px) {
   .nav {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
@@ -127,7 +127,7 @@ header {
   background-color: transparent;
   padding: 0;
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1400px) {
   .btn-mobile__menu {
     display: none;
   }
@@ -195,7 +195,7 @@ header {
     padding-left: 143px;
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1400px) {
   .hero {
     margin-top: 46px;
     padding-right: 100px;
@@ -228,7 +228,7 @@ header {
     line-height: 1.1;
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1400px) {
   .hero__title {
     font-weight: 400;
     font-size: 57px;
@@ -253,7 +253,7 @@ header {
     text-transform: capitalize;
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1400px) {
   .hero__text {
     font-weight: 300;
     font-size: 25px;
@@ -275,7 +275,7 @@ header {
   margin-right: auto;
   margin-bottom: 56px;
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1400px) {
   .hero__btn {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
@@ -297,7 +297,7 @@ header {
   text-transform: uppercase;
   min-width: 168px;
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1400px) {
   .btn__buy {
     margin-left: 0;
   }
@@ -316,7 +316,7 @@ header {
   text-transform: uppercase;
   border: 2px solid #475F45;
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1400px) {
   .btn__learn {
     margin-right: 0;
   }
@@ -349,7 +349,7 @@ header {
     padding-bottom: 88px;
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1400px) {
   .features {
     padding-left: 100px;
     padding-right: 100px;
@@ -385,13 +385,13 @@ header {
     margin-bottom: 60px;
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1400px) {
   .features__img {
     margin-right: auto;
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1400px) {
   .features__main {
     margin-left: 90px;
   }
@@ -416,7 +416,7 @@ header {
     margin-bottom: 32px;
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1400px) {
   .features__title {
     margin-bottom: 26px;
   }
@@ -486,7 +486,7 @@ header {
     height: 357px;
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1400px) {
   .features__icon {
     width: 534px;
     height: 462px;
@@ -562,7 +562,7 @@ header {
   border-top: 2px solid #475F45;
   opacity: 0.4;
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1400px) {
   .view__line {
     width: 130px;
     height: 4px;
@@ -616,7 +616,7 @@ header {
     gap: 24px;
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1400px) {
   .post__articles-primary {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -639,7 +639,7 @@ header {
   margin-top: 44px;
   gap: 20px;
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1400px) {
   .articles__secondary {
     margin-top: 0;
   }
@@ -734,7 +734,7 @@ footer {
     gap: 73px;
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1400px) {
   .footer {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -805,7 +805,7 @@ footer {
     margin-top: 0;
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1400px) {
   .footer__title-menu {
     text-align: start;
   }
@@ -822,7 +822,7 @@ footer {
   margin-top: 20px;
   margin-bottom: 48px;
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1400px) {
   .footer__menu {
     -webkit-box-align: start;
         -ms-flex-align: start;
@@ -861,7 +861,7 @@ footer {
   text-transform: capitalize;
   margin-bottom: 20px;
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1400px) {
   .footer__social {
     text-align: start;
   }
