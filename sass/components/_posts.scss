@@ -70,10 +70,12 @@
 }
 
 .post {
-  display: flex;
+  @include desk {
+    display: flex;
   flex-wrap: nowrap;
   gap: 50px;
   justify-content: center;
+  }
 }
 
 .post__articles-primary {
