@@ -44,6 +44,11 @@
   width: 48px;
   border-top: 2px solid $primary;
   opacity: 0.4;
+
+  @include desk {
+    width: 130px;
+    height: 4px;
+  }
 }
 
 .view__all {
@@ -64,10 +69,12 @@
   opacity: 0.7;
 }
 
-// .articles__primary {
-//   display: flex;
-//   flex-direction: column;
-// }
+.post {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 50px;
+  justify-content: center;
+}
 
 .post__articles-primary {
 
@@ -76,6 +83,11 @@
   flex-wrap: nowrap;
   gap: 24px;
   } 
+
+  @include desk {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .articles__secondary {
@@ -83,6 +95,10 @@
   flex-direction: column;
   margin-top: 44px;
   gap: 20px;
+
+  @include desk {
+    margin-top: 0;
+  }
 }
 
 .post__img {

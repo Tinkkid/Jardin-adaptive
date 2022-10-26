@@ -1,6 +1,9 @@
-.footer {
-    position: relative;
+footer {
     background-color: $body-copy;
+    position: relative;
+}
+.footer {
+    // position: relative;   
     padding-top: 48px;
     padding-bottom: 64px;
 
@@ -9,6 +12,12 @@
         justify-content: center;
         gap: 73px;
     }
+
+    @include desk {
+        display: flex;
+        justify-content: space-between;
+    }
+
 }
 
 .footer__logo {
@@ -53,13 +62,20 @@
     @include tablet {
         margin-top: 0;
     }
+
+    @include desk {
+        text-align: start;
+    }
 }
-.footer__menu {
-    
+.footer__menu {   
     display: flex;
     flex-direction: column;
     margin-top: 20px;
     margin-bottom: 48px;
+
+    @include desk {
+    align-items: start;
+    }
 }
 
 .footer__link {
@@ -68,6 +84,10 @@
 
     @include font (700, 14px, 1.14, null);
     color: $light;
+}
+
+.footer__item {
+    text-align: start;
 }
 
 .footer__item:not(:last-child) {
@@ -81,6 +101,10 @@
     text-align: center;
     text-transform: capitalize;
     margin-bottom: 20px;
+
+    @include desk {
+        text-align: start;
+    }
 }
 
 .footer__social-list {

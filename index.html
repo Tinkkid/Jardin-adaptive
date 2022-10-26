@@ -19,6 +19,8 @@
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
+
+    <!-- Header of the site -->
     <header class="header">
       <div class="container nav">
         <nav class="nav">
@@ -30,7 +32,22 @@
             <p class="nav__title">Mist Gardens</p>
             <p class="nav__item">Museum & Botanical Garden</p>
           </div>
+         
         </nav>
+        <!-- Web desktop menu in the header -->
+          <div class="menu-desk">
+          <ul class="menu-desk__list">
+            <li class="menu-desk__item"><a href="">home</a></li>
+            <li class="menu-desk__item"><a href="">visit</a></li>
+            <li class="menu-desk__item"><a href="">exhibitions</a></li>
+            <li class="menu-desk__item"><a href="">programs & events</a></li>
+            <li class="menu-desk__item">
+              <button class="btn__membership-desk" type="button">membership</button>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Mobile button -->
         <button
           class="btn-mobile__menu js-open-menu"
           type="button"
@@ -73,9 +90,10 @@
     <main>
 
       <!-- About hero -->
-      <sector class="section">
+      <section class="section">
         <div class="container hero">
-          <h1 class="hero__title">A beatiful adventure awaits</h1>
+          <div class="hero__block-desk">
+            <h1 class="hero__title">A beatiful adventure awaits</h1>
           <p class="hero__text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt
             facilisis nunc
@@ -83,7 +101,8 @@
           <div class="hero__btn">
             <button class="btn__buy" type="button">Buy Tickets</button>
             <button class="btn__learn" type="button">Learn More</button>
-          </div>       
+          </div>  
+          </div>        
             <picture class="hero__img">
                 <source
                 srcset="
@@ -99,17 +118,17 @@
               media="(min-width:768px)">
               <source
               srcset="
-                ./images/desk/hero-desk-534.jpg    534w,
+                ./images/desk/hero-desk-478.jpg    478w,
                 ./images/desk/hero-desk-956@2x.jpg 956w
               "
               media="(min-width:1200px)">
               <img src="./images/mobile/hero_255.jpg" alt="beautiful view inside the garden">
             </picture>        
         </div>
-    </sector>
+    </section>
 
-      <!-- Added Feauters/aboit events -->
-      <sector class="section">
+      <!-- Added Feauters/about events -->
+      <section class="section event">
         <div class="container features">
           <div class="features__img">
             <picture class="post__img">
@@ -154,19 +173,14 @@
                 "
                 media="(min-width: 768px)"
               >
-              <source
-                srcset="
-                  ./images/desk/features2-desk-534.jpg    534w,
-                  ./images/desk/features2-desk-1068@2x.jpg 1068w
-                "
-                media="(min-width: 1200px)"> 
               <img
                 src="./images/mobile/garden4_344.jpg"
                 alt="two chairs in the garden"
               />
             </picture>
           </div>
-          <h2 class="features__title">Discover yourself with nature</h2>
+          <div class="features__main">
+            <h2 class="features__title">Discover yourself with nature</h2>
           <p class="features__text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt
             facilisis nuncLorem ipsum dolor sit amet, consectetur adipiscing
@@ -175,15 +189,16 @@
           <div class="btn__features">
             <button class="features__btn">Learn More</button>
           </div>
+          </div>         
           <svg class="features__icon">
             <use href="./images/icons.svg#icon-Group"></use>
           </svg>
         </div>
-      </sector>
+      </section>
 
       <!-- Added articles and news -->
 
-      <sector class="section">
+      <section class="section">
         <div class="container posts">
           <h3 class="news">News & Updates</h3>
           <div class="view">
@@ -198,6 +213,8 @@
           </button>
           </div>
 
+          <div class="post">
+            
           <!-- Primary post -->
             <div class="articles__primary">
             <article class="post__articles-primary">
@@ -310,12 +327,12 @@
               </p>
               <p class="posts__date">November 3, 2021</p>
               </div>
-
             </article>
-            </div>         
+            </div> 
+          </div>     
           </div>
         </div>
-      </sector>
+      </section>
     </main>
 
     <footer>

@@ -25,6 +25,12 @@ body {
 
 button {
     border:none;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
 }
 
 .container {
@@ -41,7 +47,9 @@ button {
     }
 
     @include desk {
-        max-width: 1200px;
+        max-width: 1400px;
+        padding-left: 100px;
+        padding-right: 100px;
     }
 
 }
