@@ -1,93 +1,93 @@
 // for mobile
 .features {
-    position: relative;
-    background-color: $header-text;
-    padding-top: 56px;
-    padding-bottom: 64px;
+  position: relative;
+  background-color: $header-text;
+  padding-top: 56px;
+  padding-bottom: 64px;
 
-    @include tablet {
+  @include tablet {
     padding-left: 105px;
     padding-right: 105px;
     padding-top: 96px;
     padding-bottom: 88px;
-    }
+  }
 }
 
 .features__img {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    gap: 16px;
-    margin-bottom: 40px;
-    margin-left: auto;
-    margin-right: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 40px;
+  margin-left: auto;
+  margin-right: auto;
 
-    @include tablet {
+  @include tablet {
     gap: 40px;
     margin-bottom: 60px;
-    }
+  }
 }
 
 .features__title {
-    @include font (400,34px,1.10, null);
-    font-family: 'Libre Baskerville';
-    color: $light;
-    text-align: center;
-    text-transform: capitalize;
-    margin-bottom: 24px;
+  @include font(400, 34px, 1.1, null);
+  font-family: "Libre Baskerville";
+  color: $light;
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 24px;
 
-    @include tablet {
-    @include font (400, 45px, 1.10, null);
+  @include tablet {
+    @include font(400, 45px, 1.1, null);
     text-align: start;
     margin-bottom: 32px;
-    }
+  }
 }
 
 .features__text {
-    @include font (400, 16px, 1.5, null);
-    text-align: center;
-    color: $light;
-    margin-bottom: 24px;
-    max-width: 400px;
+  @include font(400, 16px, 1.5, null);
+  text-align: center;
+  color: $light;
+  margin-bottom: 24px;
+  max-width: 400px;
 
-    @include tablet {
-    @include font (400, 20px, 1.10, null);
+  @include tablet {
+    @include font(400, 20px, 1.1, null);
     text-align: start;
     margin-bottom: 32px;
     max-width: 400px;
-    }
+  }
 }
 
 .btn__features {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 
-    @include tablet {
-        justify-content: start;
-    }
+  @include tablet {
+    justify-content: start;
+  }
 }
 
 .features__btn {
-    padding: 15px 30px;
-    @include font (700, 14px, 1.14, 0.15em);
-    background-color: $header-text;
-    color: $light;
-    text-transform: uppercase;
-    min-width: 168px;
-    white-space: nowrap;
-    border: 2px solid $light;
+  padding: 15px 30px;
+  @include font(700, 14px, 1.14, 0.15em);
+  background-color: $header-text;
+  color: $light;
+  text-transform: uppercase;
+  min-width: 168px;
+  white-space: nowrap;
+  border: 2px solid $light;
 }
 
 .features__icon {
-    position: absolute;
-    right:0;
-    bottom: 0;
-    opacity: 0.07;
-    width: 195px;
-    height:188px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  opacity: 0.07;
+  width: 195px;
+  height: 188px;
 
-    @include tablet {
+  @include tablet {
     width: 342px;
     height: 357px;
-    }
+  }
 }

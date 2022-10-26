@@ -1,148 +1,140 @@
 .posts {
-    padding-top: 48px;
-    padding-bottom: 40px;
+  padding-top: 48px;
+  padding-bottom: 40px;
 
-    @include tablet {
-        padding-right: 24px;
-        padding-left: 24px;
-        padding-top: 65px;
-        padding-bottom: 48px;
-    }
+  @include tablet {
+    padding-right: 24px;
+    padding-left: 24px;
+    padding-top: 65px;
+    padding-bottom: 48px;
+  }
 }
 
 .news {
-    @include font (400, 34px, 1.1, null);
-    font-family: 'Libre Baskerville';
-    color: $header-text;
-    text-transform: capitalize;
-    text-align: center;
-    margin-bottom: 20px;
+  @include font(400, 34px, 1.1, null);
+  font-family: 'Libre Baskerville';
+  color: $header-text;
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 20px;
 
-    @include tablet {
-        @include font (400, 45px, 1.1, null);
-        text-align: start;
-    }
+  @include tablet {
+    @include font(400, 45px, 1.1, null);
+    text-align: start;
+  }
 }
 
 .view {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
-    margin-bottom: 32px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 32px;
 
-    @include tablet {
-        justify-content: start;
-        margin-bottom: 48px;
-    }
+  @include tablet {
+    justify-content: start;
+    margin-bottom: 48px;
+  }
 }
 
 .view__line {
-    display: flex;
-    align-items: center;
-    width: 48px;
-    border-top: 2px solid $primary;
-    opacity: 0.4;
+  display: flex;
+  align-items: center;
+  width: 48px;
+  border-top: 2px solid $primary;
+  opacity: 0.4;
 }
 
 .view__all {
-    @include font (700, 14px, 1.14, 0.15em);
-    color: $primary;
-    text-align: center;
-    text-transform: uppercase;
+  @include font(700, 14px, 1.14, 0.15em);
+  color: $primary;
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .view__btn {
-    display: flex;
-    align-items: center;
-    background-color: transparent;
-    padding: 0;
+  display: flex;
+  align-items: center;
+  background-color: transparent;
+  padding: 0;
 }
 
 .posts__icon {
-    opacity: 0.7;
+  opacity: 0.7;
 }
 
-.articles__primary {
-    display: flex;
-    flex-direction: column;
-
-    // @include tablet {
-    //     display: flex;
-    //     flex-wrap: nowrap;
-    // }
-}
+// .articles__primary {
+//   display: flex;
+//   flex-direction: column;
+// }
 
 .post__articles-primary {
+
+  @include tablet {
     display: flex;
-    flex-wrap: nowrap;
-    gap: 24px;
+  flex-wrap: nowrap;
+  gap: 24px;
+  } 
 }
 
 .articles__secondary {
-    display: flex;
-    flex-direction: column;
-    margin-top: 44px;
-    gap: 20px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 44px;
+  gap: 20px;
 }
 
 .post__img {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-
-    @include tablet {
-        display: inline-block;
-    }
+  display: flex;
+  margin-bottom: 20px;
 }
 
 .posts__title {
-    @include font (400,23px,1.1,null);
-    font-family: 'Libre Baskerville';
-    color: $primary;
-    text-align: center;
-    text-transform: capitalize;
-    margin-bottom: 12px;
+  @include font(400, 23px, 1.1, null);
+  font-family: 'Libre Baskerville';
+  color: $primary;
+  text-align: center;
+  text-transform: capitalize;
+  margin-bottom: 12px;
 
-    @include tablet {
+  @include tablet {
     text-align: start;
-    }
+  }
 }
 
 .posts__text {
-    @include font(400,16px,1.5,null);
-    color: $body-copy;
-    text-align: center;
-    margin-bottom: 12px;
+  @include font(400, 16px, 1.5, null);
+  color: $body-copy;
+  text-align: center;
+  margin-bottom: 12px;
 
-    @include tablet {
+  @include tablet {
     text-align: start;
-        }
+  }
 }
 
 .posts__date {
-    @include font(400, 16px, 1.5, null);
-    font-style: italic;
-    color: $body-copy;
-    text-align: center;
+  @include font(400, 16px, 1.5, null);
+  font-style: italic;
+  color: $body-copy;
+  text-align: center;
 
-    @include tablet {
-            text-align: start;
-        }
+  @include tablet {
+    text-align: start;
+  }
 }
 
 .date-margin {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 .posts__article {
-    border-bottom: 1px solid $border-article;
+  border-bottom: 1px solid $border-article;
 
-    @include tablet {
-        display: flex;
-            flex-wrap: nowrap;
-            gap: 24px;
-    }
+  @include tablet {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 24px;
+  }
 }
-

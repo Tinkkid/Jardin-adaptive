@@ -3,6 +3,12 @@
     background-color: $body-copy;
     padding-top: 48px;
     padding-bottom: 64px;
+
+    @include tablet {
+        display: flex;
+        justify-content: center;
+        gap: 73px;
+    }
 }
 
 .footer__logo {
@@ -10,6 +16,17 @@
     align-items: center;
     justify-content: center;
     margin-bottom: 20px;
+
+    @include tablet {     
+        justify-content: start;
+        margin-bottom: 27px;
+    }
+}
+
+@include tablet{
+    .logo-text {
+        @include font (400, 16px, 1.5, null);
+    }
 }
 
 .nav__title--position, .nav__item--position {
@@ -20,10 +37,28 @@
     fill:$light;
 }
 
-.footer__menu {
+.footer__block-menu {
     display: flex;
     flex-direction: column;
+
+}
+
+.footer__title-menu {
+    @include font (400, 16px, 1.1, null);
+    font-family: 'Libre Baskerville';
+    color: $light;
+    text-align: center;
     margin-top: 40px;
+
+    @include tablet {
+        margin-top: 0;
+    }
+}
+.footer__menu {
+    
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
     margin-bottom: 48px;
 }
 

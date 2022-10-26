@@ -106,7 +106,7 @@
               <img src="./images/mobile/hero_255.jpg" alt="beautiful view inside the garden">
             </picture>        
         </div>
-      </sector>
+    </sector>
 
       <!-- Added Feauters/aboit events -->
       <sector class="section">
@@ -204,11 +204,25 @@
               <picture class="post__img">
                 <source
                   srcset="
-                    ./images/mobile/garden5_343.jpg    1x,
-                    ./images/mobile/garden5_686@2x.jpg 2x
+                    ./images/mobile/garden5_343.jpg    343w,
+                    ./images/mobile/garden5_686@2x.jpg 686w
                   "
-                  type="image/webp"
-                />
+                  media="(max-width: 767px)"
+                >
+                <source
+                 srcset="
+                 .images/tablet/post1-tab-392.jpg 392w, 
+                ./images/tablet/post1-tab-784@2x.jpg 784w
+                "
+                media="(min-width: 768px)"
+                >
+                <source 
+                srcset="
+                ./images/desk/post1-desk-519.jpg 519w,
+                ./images/desk/post1-desk-1038@2x.jpg 1038w
+                "
+                media="(min-width: 1200px)"
+                >
                 <img
                   src="./images/mobile/garden5_343.jpg"
                   alt="road in the garden"
@@ -232,12 +246,12 @@
               <picture class="post__img">
                 <source
                   srcset="
-                    ./images/mobile/garden6_236.jpg    1x,
-                    ./images/mobile/garden6_472@2x.jpg 2x
+                    ./images/mobile/garden6_236.jpg    236w,
+                    ./images/mobile/garden6_472@2x.jpg 472w
                   "
-                  type="image/webp"
-                />
-                <img src="./images/mobile/garden6_236.jpg" alt="tomato" />
+                />              
+                <img src="./images/mobile/garden6_236.jpg" 
+                alt="tomato" />
               </picture>
               <div class="primary__dsc">
               <h4 class="posts__title">Lush Gardens</h4>
@@ -254,10 +268,9 @@
               <picture class="post__img">
                 <source
                   srcset="
-                    ./images/mobile/garden1_236.jpg    1x,
-                    ./images/mobile/garden1_472@2x.jpg 2x
+                    ./images/mobile/garden1_236.jpg    238w,
+                    ./images/mobile/garden1_472@2x.jpg 472w
                   "
-                  type="image/webp"
                 />
                 <img
                   src="./images/mobile/garden1_236.jpg"
@@ -275,14 +288,13 @@
               </div>
 
             </article>
-            <article>
+            <article class="posts__article">
               <picture class="post__img">
                 <source
                   srcset="
-                    ./images/mobile/garden7_236.jpg    1x,
-                    ./images/mobile/garden7_472@2x.jpg 2x
+                    ./images/mobile/garden7_236.jpg   236w,
+                    ./images/mobile/garden7_472@2x.jpg 472w
                   "
-                  type="image/webp"
                 />
                 <img
                   src="./images/mobile/garden7_236.jpg"
@@ -308,23 +320,30 @@
 
     <footer>
       <div class="container footer">
-        <div class="footer__logo">
+        <div class="logo">
+          <div class="footer__logo">
           <span class="logo__header footer__logo--position"
             ><svg class="logo-icon__footer" width="49" height="49">
               <use href="./images/icons.svg#icon-Subtract"></use></svg
           ></span>
           <div class="nav__name">
-            <p class="nav__title nav__title--position">Mist Gardens</p>
+          <p class="nav__title nav__title--position">Mist Gardens</p>
             <p class="nav__item nav__item--position">
               Museum & Botanical Garden
             </p>
           </div>
-        </div>
-        <p class="features__text">
+          </div>
+          <div class="footer__logo-text">
+            <p class="features__text logo-text">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt
           facilisis nuncLorem ipsum dolor sit amet, consectetur adipiscing.
         </p>
-        <div>
+          </div> 
+        </div>           
+        <div class="footer__block-menu">
+          <p class="footer__title-menu">
+            Sitemap
+          </p>
           <ul class="footer__menu">
             <li class="footer__item">
               <a class="footer__link" href="">Home</a>
@@ -343,7 +362,8 @@
             </li>
           </ul>
         </div>
-        <p class="footer__social">Connect</p>
+        <div class="footer__block-social">
+          <p class="footer__social">Connect</p>
         <ul class="footer__social-list">
           <li class="footer__social-icon">
             <a href=""
@@ -370,6 +390,7 @@
             ></a>
           </li>
         </ul>
+        </div>     
       </div>
       <div class="copyright">
         <span>&#xa9;</span> 2021 Mist Gardens. All rights reserved.

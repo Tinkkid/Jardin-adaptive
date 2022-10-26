@@ -432,23 +432,15 @@ header {
   opacity: 0.7;
 }
 
-.articles__primary {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-.post__articles-primary {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
-  gap: 24px;
+@media screen and (min-width: 768px) {
+  .post__articles-primary {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    gap: 24px;
+  }
 }
 
 .articles__secondary {
@@ -467,15 +459,7 @@ header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   margin-bottom: 20px;
-}
-@media screen and (min-width: 768px) {
-  .post__img {
-    display: inline-block;
-  }
 }
 
 .posts__title {
@@ -546,6 +530,17 @@ header {
   padding-top: 48px;
   padding-bottom: 64px;
 }
+@media screen and (min-width: 768px) {
+  .footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    gap: 73px;
+  }
+}
 
 .footer__logo {
   display: -webkit-box;
@@ -559,13 +554,53 @@ header {
           justify-content: center;
   margin-bottom: 20px;
 }
+@media screen and (min-width: 768px) {
+  .footer__logo {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    margin-bottom: 27px;
+  }
+}
 
+@media screen and (min-width: 768px) {
+  .logo-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+}
 .nav__title--position, .nav__item--position {
   color: #fff;
 }
 
 .logo-icon__footer {
   fill: #fff;
+}
+
+.footer__block-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.footer__title-menu {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.1;
+  font-family: "Libre Baskerville";
+  color: #fff;
+  text-align: center;
+  margin-top: 40px;
+}
+@media screen and (min-width: 768px) {
+  .footer__title-menu {
+    margin-top: 0;
+  }
 }
 
 .footer__menu {
@@ -576,7 +611,7 @@ header {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin-top: 40px;
+  margin-top: 20px;
   margin-bottom: 48px;
 }
 

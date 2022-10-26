@@ -11,7 +11,10 @@
       "savePath": "/css"
     }
   ],
-  "liveSassCompile.settings.excludeList": ["/**/node_modules/**", "/.vscode/**"],
+  "liveSassCompile.settings.excludeList": [
+    "/**/node_modules/**",
+    "/.vscode/**"
+  ],
   "liveSassCompile.settings.generateMap": true,
   "liveSassCompile.settings.autoprefix": ["> 1%", "last 2 versions"],
   "liveServer.settings.port": 5500,
@@ -35,5 +38,6 @@
     "titleBar.inactiveForeground": "#e7e7e799"
   },
   "peacock.color": "#832561",
-
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode"
 }
