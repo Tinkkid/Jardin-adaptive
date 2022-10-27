@@ -214,37 +214,25 @@
           </div>
 
           <div class="post">
-            
+
           <!-- Primary post -->
             <div class="articles__primary">
             <article class="post__articles-primary">
-              <picture class="post__img">
-                <source
-                  srcset="
-                    ./images/mobile/garden5_343.jpg    343w,
-                    ./images/mobile/garden5_686@2x.jpg 686w
-                  "
-                  media="(max-width: 767px)"
-                >
-                <source
-                 srcset="
-                 .images/tablet/post1-tab-392.jpg 392w, 
-                ./images/tablet/post1-tab-784@2x.jpg 784w
-                "
-                media="(min-width: 768px)"
-                >
-                <source 
-                srcset="
+              <div class="post__img">
+                <img
+                  srcset="       
+                ./images/mobile/garden5_343.jpg 343w,
+                .images/tablet/post1-tab-392.jpg 392w,
                 ./images/desk/post1-desk-519.jpg 519w,
+                ./images/mobile/garden5_686@2x.jpg 686w,
+                ./images/tablet/post1-tab-784@2x.jpg 784w,
                 ./images/desk/post1-desk-1038@2x.jpg 1038w
                 "
-                media="(min-width: 1200px)"
-                >
-                <img
+                  sizes="(min-width: 1200px) 519px, (min-width:767px) 392px, 100vw"
                   src="./images/mobile/garden5_343.jpg"
                   alt="road in the garden"
                 />
-              </picture>
+              </div>
               <div class="primary__dsc">
                 <h4 class="posts__title">Plants Around Us</h4>
               <p class="posts__text">
@@ -260,16 +248,16 @@
             <!-- Secondary articles -->          
             <div class="articles__secondary">
                 <article class="posts__article">
-              <picture class="post__img">
-                <source
-                  srcset="
-                    ./images/mobile/garden6_236.jpg    236w,
-                    ./images/mobile/garden6_472@2x.jpg 472w
+              <div class="post__img">             
+                <img 
+                srcset="
+                  ./images/mobile/garden6_236.jpg 236w,
+                  ./images/mobile/garden6_472@2x.jpg 472w
                   "
-                />              
-                <img src="./images/mobile/garden6_236.jpg" 
+                sizes="100vw"
+                src="./images/mobile/garden6_236.jpg" 
                 alt="tomato" />
-              </picture>
+              </div>
               <div class="primary__dsc">
               <h4 class="posts__title">Lush Gardens</h4>
               <p class="posts__text">
@@ -282,18 +270,17 @@
               
             </article>
             <article class="posts__article">
-              <picture class="post__img">
-                <source
-                  srcset="
-                    ./images/mobile/garden1_236.jpg    238w,
+              <div class="post__img">
+                <img
+                srcset="
+                    ./images/mobile/garden1_236.jpg 236w,
                     ./images/mobile/garden1_472@2x.jpg 472w
                   "
-                />
-                <img
+                  sizes="100vw"
                   src="./images/mobile/garden1_236.jpg"
                   alt="room with plants"
                 />
-              </picture>
+              </div>
               <div class="primary__dsc">
               <h4 class="posts__title">Exotic Nature</h4>
               <p class="posts__text">
@@ -306,18 +293,17 @@
 
             </article>
             <article class="posts__article">
-              <picture class="post__img">
-                <source
-                  srcset="
-                    ./images/mobile/garden7_236.jpg   236w,
+              <div class="post__img">
+                <img
+                srcset="
+                    ./images/mobile/garden7_236.jpg 236w,
                     ./images/mobile/garden7_472@2x.jpg 472w
                   "
-                />
-                <img
+                  sizes="100vw"
                   src="./images/mobile/garden7_236.jpg"
                   alt="zooming of the plants"
                 />
-              </picture>
+              </div>
               <div class="primary__dsc">
               <h4 class="posts__title">It Starts with Soil</h4>
               <p class="posts__text">

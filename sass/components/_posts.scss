@@ -81,11 +81,16 @@
 
 }
 
+.articles__primary {
+  @include tablet {
+    display: flex;;
+  }
+}
+
 .post__articles-primary {
 
   @include tablet {
     display: flex;
-  flex-wrap: nowrap;
   gap: 24px;
   } 
 
@@ -93,6 +98,11 @@
     display: flex;
     flex-direction: column;
   }
+}
+
+.primary__dsc {
+  display: flex;
+  flex-direction: column;
 }
 
 .articles__secondary {
@@ -108,7 +118,16 @@
 
 .post__img {
   display: flex;
+  flex-direction: column;
   margin-bottom: 20px;
+
+  @include tablet {
+    flex-direction: row;
+  }
+
+  @include desk {
+    flex-direction: column;
+  }
 }
 
 .posts__title {
@@ -155,7 +174,8 @@
 
   @include tablet {
     display: flex;
-    flex-wrap: nowrap;
+    
+    // flex-wrap: nowrap;
     gap: 24px;
   }
 }
