@@ -103,27 +103,18 @@
             <button class="btn__learn" type="button">Learn More</button>
           </div>  
           </div>        
-            <picture class="hero__img">
-                <source
-                srcset="
-                ./images/mobile/hero_255.jpg    255w,
-                ./images/mobile/hero_509@2x.jpg 509w
-              "
-              media="(max-width:767px)">
-              <source 
-              srcset="
-                ./images/tablet/hero-tab-394.jpg    394w,
-                ./images/tablet/hero-tab-788@2x.jpg 788w
-              "
-              media="(min-width:768px)">
-              <source
-              srcset="
-                ./images/desk/hero-desk-478.jpg    478w,
-                ./images/desk/hero-desk-956@2x.jpg 956w
-              "
-              media="(min-width:1200px)">
-              <img src="./images/mobile/hero_255.jpg" alt="beautiful view inside the garden">
-            </picture>        
+            <div class="hero__img">
+              <img 
+              srcset="./images/mobile/hero_255.jpg 255w,
+              ./images/mobile/hero_509@2x.jpg 509w,
+              ./images/tablet/hero-tab-394.jpg 394w,
+              ./images/tablet/hero-tab-788@2x.jpg 788w,
+              ./images/desk/hero-desk-478.jpg 478w,
+              ./images/desk/hero-desk-956@2x.jpg 956w
+                "
+              sizes="(min-width:1200px) 478px, (min-width:768px) 394px, 100vw"
+              src="./images/mobile/hero_255.jpg" alt="beautiful view inside the garden">
+            </div>        
         </div>
     </section>
 
@@ -233,7 +224,7 @@
                   alt="road in the garden"
                 />
               </div>
-              <div class="primary__dsc">
+              <div class="primary__dsc primary__dsc--shrink">
                 <h4 class="posts__title">Plants Around Us</h4>
               <p class="posts__text">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -266,8 +257,7 @@
                 sit amet, consectetur adipiscing elit...
               </p>
               <p class="posts__date date-margin">December 16, 2021</p>
-              </div>
-              
+              </div>             
             </article>
             <article class="posts__article">
               <div class="post__img">
