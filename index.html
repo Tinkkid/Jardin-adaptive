@@ -1,99 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Jardin</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Roboto:ital,wght@0,300;0,400;0,700;1,400&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="./css/main.min.css" />
-  </head>
-  <body>
 
-    <!-- Header of the site -->
-    <header class="header">
-      <div class="container nav">
-        <nav class="nav">
-          <span class="logo__header"
-            ><svg class="logo-icon__header" width="49" height="49">
-              <use href="./images/icons.svg#icon-Subtract"></use></svg
-          ></span>
-          <div class="nav__name">
-            <p class="nav__title">Mist Gardens</p>
-            <p class="nav__item">Museum & Botanical Garden</p>
-          </div>
-         
-        </nav>
-        <!-- Web desktop menu in the header -->
-          <div class="menu-desk">
-          <ul class="menu-desk__list">
-            <li class="menu-desk__item"><a href="">home</a></li>
-            <li class="menu-desk__item"><a href="">visit</a></li>
-            <li class="menu-desk__item"><a href="">exhibitions</a></li>
-            <li class="menu-desk__item"><a href="">programs & events</a></li>
-            <li class="menu-desk__item">
-              <button class="btn__membership-desk" type="button">membership</button>
-            </li>
-          </ul>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jardin</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Roboto:ital,wght@0,300;0,400;0,700;1,400&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./css/main.min.css" />
+</head>
+
+<body>
+
+  <!-- Header of the site -->
+  <header class="header">
+    <div class="container nav">
+      <nav class="nav">
+        <span class="logo__header"><svg class="logo-icon__header" width="49" height="49">
+            <use href="./images/icons.svg#icon-Subtract"></use>
+          </svg></span>
+        <div class="nav__name">
+          <p class="nav__title">Mist Gardens</p>
+          <p class="nav__item">Museum & Botanical Garden</p>
         </div>
 
-        <!-- Mobile button -->
-        <button
-          class="btn-mobile__menu js-open-menu"
-          type="button"
-          aria-expanded="false"
-          aria-controls="mobile-menu"
-        >
-          <svg width="24" height="24">
-            <use class="menu-open" href="./images/icons.svg#icon-menu"></use>
-          </svg>
-        </button>
+      </nav>
+      <!-- Web desktop menu in the header -->
+      <div class="menu-desk">
+        <ul class="menu-desk__list">
+          <li class="menu-desk__item"><a href="">home</a></li>
+          <li class="menu-desk__item"><a href="">visit</a></li>
+          <li class="menu-desk__item"><a href="">exhibitions</a></li>
+          <li class="menu-desk__item"><a href="">programs & events</a></li>
+          <li class="menu-desk__item">
+            <button class="btn__membership-desk" type="button">membership</button>
+          </li>
+        </ul>
       </div>
 
-      <!-- Mobile button menu -->
-      <div class="menu-container js-menu-container" id="mobile-menu">
-        <button
-          class="btn-mobile__menu js-close-menu menu-toggle"
-          type="button"
-        >
-          <svg width="30" height="30">
-            <use href="./images/icons.svg#icon-cross"></use>
-          </svg>
-        </button>
-        <p class="menu__title">menu</p>
-        <div class="menu">
-          <ul class="menu__list">
-            <li class="menu__item">home</li>
-            <li class="menu__item">visit</li>
-            <li class="menu__item">exhibitions</li>
-            <li class="menu__item">programs & events</li>
-            <li class="menu__item">
-              <button class="btn__membership" type="button">membership</button>
-            </li>
-          </ul>
-        </div>
-        <svg class="features__icon">
-          <use href="./images/icons.svg#icon-Group"></use>
+      <!-- Mobile button -->
+      <button class="btn-mobile__menu js-open-menu" type="button" aria-expanded="false" aria-controls="mobile-menu">
+        <svg width="24" height="24">
+          <use class="menu-open" href="./images/icons.svg#icon-menu"></use>
         </svg>
-      </div>
-    </header>
-    <main>
+      </button>
+    </div>
 
-      <!-- About hero -->
-      <section class="section">
-        <div class="container hero">
-          <div class="hero__block-desk">
-            <h1 class="hero__title">A beatiful adventure awaits</h1>
+    <!-- Mobile button menu -->
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="btn-mobile__menu js-close-menu menu-toggle" type="button">
+        <svg width="30" height="30">
+          <use href="./images/icons.svg#icon-cross"></use>
+        </svg>
+      </button>
+      <p class="menu__title">menu</p>
+      <div class="menu">
+        <ul class="menu__list">
+          <li class="menu__item">home</li>
+          <li class="menu__item">visit</li>
+          <li class="menu__item">exhibitions</li>
+          <li class="menu__item">programs & events</li>
+          <li class="menu__item">
+            <button class="btn__membership" type="button">membership</button>
+          </li>
+        </ul>
+      </div>
+      <svg class="features__icon">
+        <use href="./images/icons.svg#icon-Group"></use>
+      </svg>
+    </div>
+  </header>
+  <main>
+
+    <!-- About hero -->
+    <section class="section">
+      <div class="container hero">
+        <div class="hero__block-desk">
+          <h1 class="hero__title">A beatiful adventure awaits</h1>
           <p class="hero__text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt
             facilisis nunc
@@ -101,77 +89,54 @@
           <div class="hero__btn">
             <button class="btn__buy" type="button">Buy Tickets</button>
             <button class="btn__learn" type="button">Learn More</button>
-          </div>  
-          </div>        
-            <div class="hero__img">
-              <img 
-              srcset="./images/mobile/hero_255.jpg 255w,
+          </div>
+        </div>
+        <div class="hero__img">
+          <img srcset="./images/mobile/hero_255.jpg 255w,
               ./images/mobile/hero_509@2x.jpg 509w,
               ./images/tablet/hero-tab-394.jpg 394w,
               ./images/tablet/hero-tab-788@2x.jpg 788w,
               ./images/desk/hero-desk-478.jpg 478w,
               ./images/desk/hero-desk-956@2x.jpg 956w
-                "
-              sizes="(min-width:1200px) 478px, (min-width:768px) 394px, 100vw"
-              src="./images/mobile/hero_255.jpg" alt="beautiful view inside the garden">
-            </div>        
+                " sizes="(min-width:1200px) 478px, (min-width:768px) 394px, 100vw" src="./images/mobile/hero_255.jpg"
+            alt="beautiful view inside the garden">
         </div>
+      </div>
     </section>
 
-      <!-- Added Feauters/about events -->
-      <section class="section event">
-        <div class="container features">
-          <div class="features__img">
-            <picture class="post__img">
-              <source
-                srcset="
+    <!-- Added Feauters/about events -->
+    <section class="section event">
+      <div class="container features">
+        <div class="features__img">
+          <picture class="post__img">
+            <source srcset="
                   ./images/mobile/garden3_344.jpg    344w,
                   ./images/mobile/garden3_688@2x.jpg 688w
-                "
-                media="(max-width: 767px)" 
-              >
-              <source
-                srcset="
+                " media="(max-width: 767px)">
+            <source srcset="
                   ./images/tablet/features1-tab-534.jpg 534w,
                   ./images/tablet/features1-tab-1068@2x.jpg 1068w
-                "
-                media="(min-width: 768px)"
-              >
-              <source
-                srcset="
+                " media="(min-width: 768px)">
+            <source srcset="
                   ./images/desk/features1-desk-534.jpg    534w,
                   ./images/desk/features1-desk-1068@2x.jpg 1068w
-                "
-                media="(min-width: 1200px)"  
-              >
-              <img
-                src="./images/mobile/garden3_344.jpg"
-                alt="plants on the table"
-              >
-            </picture>
-            <picture class="post__img">
-              <source
-                srcset="
+                " media="(min-width: 1200px)">
+            <img src="./images/mobile/garden3_344.jpg" alt="plants on the table">
+          </picture>
+          <picture class="post__img">
+            <source srcset="
                   ./images/mobile/garden4_344.jpg   344w,
                   ./images/mobile/garden4_688@2x.jpg 688w
-                "
-                media="(max-width: 767px)"
-              />
-              <source
-                srcset="
+                " media="(max-width: 767px)" />
+            <source srcset="
                   ./images/tablet/features2-tab-534.jpg 534w,
                   ./images/tablet/features2-tab-1068@2x.jpg 1068w
-                "
-                media="(min-width: 768px)"
-              >
-              <img
-                src="./images/mobile/garden4_344.jpg"
-                alt="two chairs in the garden"
-              />
-            </picture>
-          </div>
-          <div class="features__main">
-            <h2 class="features__title">Discover yourself with nature</h2>
+                " media="(min-width: 768px)">
+            <img src="./images/mobile/garden4_344.jpg" alt="two chairs in the garden" />
+          </picture>
+        </div>
+        <div class="features__main">
+          <h2 class="features__title">Discover yourself with nature</h2>
           <p class="features__text">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt
             facilisis nuncLorem ipsum dolor sit amet, consectetur adipiscing
@@ -180,21 +145,21 @@
           <div class="btn__features">
             <button class="features__btn">Learn More</button>
           </div>
-          </div>         
-          <svg class="features__icon">
-            <use href="./images/icons.svg#icon-Group"></use>
-          </svg>
         </div>
-      </section>
+        <svg class="features__icon">
+          <use href="./images/icons.svg#icon-Group"></use>
+        </svg>
+      </div>
+    </section>
 
-      <!-- Added articles and news -->
+    <!-- Added articles and news -->
 
-      <section class="section">
-        <div class="container posts">
-          <h3 class="news">News & Updates</h3>
-          <div class="view">
-            <span class="view__line"></span>
-            <p class="view__all">
+    <section class="section">
+      <div class="container posts">
+        <h3 class="news">News & Updates</h3>
+        <div class="view">
+          <span class="view__line"></span>
+          <p class="view__all">
             View all posts
           </p>
           <button class="view__btn" type="button">
@@ -202,202 +167,177 @@
               <use href="./images/icons.svg#icon-arrow-right"></use>
             </svg>
           </button>
-          </div>
+        </div>
 
-          <div class="post">
+        <div class="post">
 
           <!-- Primary post -->
-            <div class="articles__primary">
+          <div class="articles__primary">
             <article class="post__articles-primary">
               <div class="post__img">
-                <img
-                  srcset="       
+                <img srcset="       
                 ./images/mobile/garden5_343.jpg 343w,
                 .images/tablet/post1-tab-392.jpg 392w,
                 ./images/desk/post1-desk-519.jpg 519w,
                 ./images/mobile/garden5_686@2x.jpg 686w,
                 ./images/tablet/post1-tab-784@2x.jpg 784w,
                 ./images/desk/post1-desk-1038@2x.jpg 1038w
-                "
-                  sizes="(min-width: 1200px) 519px, (min-width:767px) 392px, 100vw"
-                  src="./images/mobile/garden5_343.jpg"
-                  alt="road in the garden"
-                />
+                " sizes="(min-width: 1200px) 519px, (min-width:767px) 392px, 100vw"
+                  src="./images/mobile/garden5_343.jpg" alt="road in the garden" />
               </div>
               <div class="primary__dsc primary__dsc--shrink">
                 <h4 class="posts__title">Plants Around Us</h4>
-              <p class="posts__text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Tincidunt facilisis nuncLorem ipsum dolor sit.Lorem ipsum dolor
-                sit amet, consectetur adipiscing elit...
-              </p>
-              <p class="posts__date">December 23, 2021</p>
+                <p class="posts__text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Tincidunt facilisis nuncLorem ipsum dolor sit.Lorem ipsum dolor
+                  sit amet, consectetur adipiscing elit...
+                </p>
+                <p class="posts__date">December 23, 2021</p>
               </div>
             </article>
-            </div> 
+          </div>
 
-            <!-- Secondary articles -->          
-            <div class="articles__secondary">
-                <article class="posts__article">
-              <div class="post__img">             
-                <img 
-                srcset="
+          <!-- Secondary articles -->
+          <div class="articles__secondary">
+            <article class="posts__article">
+              <div class="post__img">
+                <img srcset="
                   ./images/mobile/garden6_236.jpg 236w,
                   ./images/mobile/garden6_472@2x.jpg 472w
-                  "
-                sizes="100vw"
-                src="./images/mobile/garden6_236.jpg" 
-                alt="tomato" />
+                  " sizes="100vw" src="./images/mobile/garden6_236.jpg" alt="tomato" />
               </div>
               <div class="primary__dsc">
-              <h4 class="posts__title">Lush Gardens</h4>
-              <p class="posts__text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Tincidunt facilisis nuncLorem ipsum dolor sit.Lorem ipsum dolor
-                sit amet, consectetur adipiscing elit...
-              </p>
-              <p class="posts__date date-margin">December 16, 2021</p>
-              </div>             
+                <h4 class="posts__title">Lush Gardens</h4>
+                <p class="posts__text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Tincidunt facilisis nuncLorem ipsum dolor sit.Lorem ipsum dolor
+                  sit amet, consectetur adipiscing elit...
+                </p>
+                <p class="posts__date date-margin">December 16, 2021</p>
+              </div>
             </article>
             <article class="posts__article">
               <div class="post__img">
-                <img
-                srcset="
+                <img srcset="
                     ./images/mobile/garden1_236.jpg 236w,
                     ./images/mobile/garden1_472@2x.jpg 472w
-                  "
-                  sizes="100vw"
-                  src="./images/mobile/garden1_236.jpg"
-                  alt="room with plants"
-                />
+                  " sizes="100vw" src="./images/mobile/garden1_236.jpg" alt="room with plants" />
               </div>
               <div class="primary__dsc">
-              <h4 class="posts__title">Exotic Nature</h4>
-              <p class="posts__text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Tincidunt facilisis nuncLorem ipsum dolor sit.Lorem ipsum dolor
-                sit amet, consectetur adipiscing elit...
-              </p>
-              <p class="posts__date date-margin">November 11, 2021</p>
+                <h4 class="posts__title">Exotic Nature</h4>
+                <p class="posts__text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Tincidunt facilisis nuncLorem ipsum dolor sit.Lorem ipsum dolor
+                  sit amet, consectetur adipiscing elit...
+                </p>
+                <p class="posts__date date-margin">November 11, 2021</p>
               </div>
 
             </article>
             <article class="posts__article">
               <div class="post__img">
-                <img
-                srcset="
+                <img srcset="
                     ./images/mobile/garden7_236.jpg 236w,
                     ./images/mobile/garden7_472@2x.jpg 472w
-                  "
-                  sizes="100vw"
-                  src="./images/mobile/garden7_236.jpg"
-                  alt="zooming of the plants"
-                />
+                  " sizes="100vw" src="./images/mobile/garden7_236.jpg" alt="zooming of the plants" />
               </div>
               <div class="primary__dsc">
-              <h4 class="posts__title">It Starts with Soil</h4>
-              <p class="posts__text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Tincidunt facilisis nuncLorem ipsum dolor sit.Lorem ipsum dolor
-                sit amet, consectetur adipiscing elit...
-              </p>
-              <p class="posts__date">November 3, 2021</p>
+                <h4 class="posts__title">It Starts with Soil</h4>
+                <p class="posts__text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                  Tincidunt facilisis nuncLorem ipsum dolor sit.Lorem ipsum dolor
+                  sit amet, consectetur adipiscing elit...
+                </p>
+                <p class="posts__date">November 3, 2021</p>
               </div>
             </article>
-            </div> 
-          </div>     
           </div>
         </div>
-      </section>
-    </main>
+      </div>
+      </div>
+    </section>
+  </main>
 
-    <footer>
-      <div class="container footer">
-        <div class="logo">
-          <div class="footer__logo">
-          <span class="logo__header footer__logo--position"
-            ><svg class="logo-icon__footer" width="49" height="49">
-              <use href="./images/icons.svg#icon-Subtract"></use></svg
-          ></span>
+  <footer>
+    <div class="container footer">
+      <div class="logo">
+        <div class="footer__logo">
+          <span class="logo__header footer__logo--position"><svg class="logo-icon__footer" width="49" height="49">
+              <use href="./images/icons.svg#icon-Subtract"></use>
+            </svg></span>
           <div class="nav__name">
-          <p class="nav__title nav__title--position">Mist Gardens</p>
+            <p class="nav__title nav__title--position">Mist Gardens</p>
             <p class="nav__item nav__item--position">
               Museum & Botanical Garden
             </p>
           </div>
-          </div>
-          <div class="footer__logo-text">
-            <p class="features__text logo-text">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt
-          facilisis nuncLorem ipsum dolor sit amet, consectetur adipiscing.
-        </p>
-          </div> 
-        </div>           
-        <div class="footer__block-menu">
-          <p class="footer__title-menu">
-            Sitemap
-          </p>
-          <ul class="footer__menu">
-            <li class="footer__item">
-              <a class="footer__link" href="">Home</a>
-            </li>
-            <li class="footer__item">
-              <a class="footer__link" href="">Visit</a>
-            </li>
-            <li class="footer__item">
-              <a class="footer__link" href="">Exhibitions</a>
-            </li>
-            <li class="footer__item">
-              <a class="footer__link" href="">Posts</a>
-            </li>
-            <li class="footer__item">
-              <a class="footer__link" href="">Membership</a>
-            </li>
-          </ul>
         </div>
-        <div class="footer__block-social">
-          <p class="footer__social">Connect</p>
-        <ul class="footer__social-list">
-          <li class="footer__social-icon">
-            <a href=""
-              ><svg class="footer__icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-twitter"></use></svg
-            ></a>
+        <div class="footer__logo-text">
+          <p class="features__text logo-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt
+            facilisis nuncLorem ipsum dolor sit amet, consectetur adipiscing.
+          </p>
+        </div>
+      </div>
+      <div class="footer__block-menu">
+        <p class="footer__title-menu">
+          Sitemap
+        </p>
+        <ul class="footer__menu">
+          <li class="footer__item">
+            <a class="footer__link" href="">Home</a>
           </li>
-          <li class="footer__social-icon">
-            <a href=""
-              ><svg class="footer__icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-facebook"></use></svg
-            ></a>
+          <li class="footer__item">
+            <a class="footer__link" href="">Visit</a>
           </li>
-          <li class="footer__social-icon">
-            <a href=""
-              ><svg class="footer__icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-linkedin"></use></svg
-            ></a>
+          <li class="footer__item">
+            <a class="footer__link" href="">Exhibitions</a>
           </li>
-          <li class="footer__social-icon">
-            <a href=""
-              ><svg class="footer__icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-mail"></use></svg
-            ></a>
+          <li class="footer__item">
+            <a class="footer__link" href="">Posts</a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="">Membership</a>
           </li>
         </ul>
-        </div>     
       </div>
-      <div class="copyright">
-        <span>&#xa9;</span> 2021 Mist Gardens. All rights reserved.
+      <div class="footer__block-social">
+        <p class="footer__social">Connect</p>
+        <ul class="footer__social-list">
+          <li class="footer__social-icon">
+            <a href=""><svg class="footer__icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg></a>
+          </li>
+          <li class="footer__social-icon">
+            <a href=""><svg class="footer__icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg></a>
+          </li>
+          <li class="footer__social-icon">
+            <a href=""><svg class="footer__icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg></a>
+          </li>
+          <li class="footer__social-icon">
+            <a href=""><svg class="footer__icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-mail"></use>
+              </svg></a>
+          </li>
+        </ul>
       </div>
-    </footer>
+    </div>
+    <div class="copyright">
+      <span>&#xa9;</span> 2021 Mist Gardens. All rights reserved.
+    </div>
+  </footer>
 
-    <!-- Script for modal window and mobile menu -->
-    <script src="./js/modal.js"></script>
-    <script
-      defer
-      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
-      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
-      crossorigin="anonymous"
-    ></script>
-    <script defer src="js/mobile-menu.js"></script>
-  </body>
+  <!-- Script for modal window and mobile menu -->
+  <script src="./js/modal.js"></script>
+  <script defer src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+    integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+    crossorigin="anonymous"></script>
+  <script defer src="js/mobile-menu.js"></script>
+</body>
+
 </html>
